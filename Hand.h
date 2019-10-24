@@ -1,7 +1,5 @@
 class Hand{
-	//Testing commiit
 	
-	//Testing new branch
 	vector <Card> hand;
 	
 	void displayHand();
