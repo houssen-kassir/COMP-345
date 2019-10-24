@@ -1,0 +1,1 @@
+class Deck{		//Container for the cards	vector <Card> deck;	//Remove a card from the deck and add it to the hand	void draw()//Use a player Hand as paramater, remove card from deck and add it to the player hand};

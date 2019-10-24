@@ -1,0 +1,1 @@
+#pragma onceclass MapLoader{public:MapLoader();    ~MapLoader();void Save(MapTemplate mapTemplate, Constants::MapExtension mapExtension);MapTemplate Load(std::string mapName);};
