@@ -7,7 +7,9 @@
 6.Detect border header
 7. First int is the country. Following int are the countries that country is adjacent to.
 
+Include method to verify if map is a connected graph
 
+*/
 #pragma once
 
 
