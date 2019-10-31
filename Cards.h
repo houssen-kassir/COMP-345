@@ -7,15 +7,7 @@
 using namespace std;
 
 
-enum cardType {
-
-infantry,
-
-artillery,
-
-cavalry,
-
-};
+enum cardType {Infantry, Cannon, Cavalry};
 
 
 class Card {
@@ -23,16 +15,16 @@ class Card {
 
 private:
 
-string countryOnCard;
+int countryOnCard;
 
 cardType typeOfCard;
 
 
 public: 
 
-Card(string country, cardType type);
+Card(int country, cardType type);
 
-string getCountryOnCard() {
+int getCountryOnCard() {
 
 }
 
